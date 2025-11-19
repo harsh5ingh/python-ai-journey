@@ -28,3 +28,12 @@ total_cardamom_pots = 10
 pots_per_cup = 3
 leftover_pots = total_cardamom_pots % pots_per_cup
 print(f"Leftover C pots: {leftover_pots}")
+
+# Power ( ** ) E.g: 2 * 2 * 2
+base_flavor_strength = 2
+scale_factor = 3 # here 2^3
+powerful_flavor = base_flavor_strength ** scale_factor
+print(f"Scaled flavor strength: {powerful_flavor}")
+
+total_tea_leaves_harvested = 1_000_000_000
+print(f"tea leaves: {total_tea_leaves_harvested}")
