@@ -35,4 +35,5 @@ strong_brew = ["black tea", "water"] * 3
 print(f"Strong brew: {strong_brew}")
 
 raw_spice_data = bytearray(b"CINNAMON")
+raw_spice_data.replace(b"CINNA", b"CARD")
 print(f"Bytes: {raw_spice_data}")
