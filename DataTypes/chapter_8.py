@@ -24,3 +24,15 @@ print(f"chai: {chai_ingredients}")
 sugar_levels = [1, 2, 3, 4, 5]
 print(f"Max. Sugar level: {max(sugar_levels)}")
 print(f"Min. Sugar level: {min(sugar_levels)}")
+
+base_liquid = ["water", "milk"]
+extra_flavor = ["ginger"]
+
+full_liquid_mix = base_liquid + extra_flavor
+print(f"Liquid mix: {full_liquid_mix}")
+
+strong_brew = ["black tea", "water"] * 3
+print(f"Strong brew: {strong_brew}")
+
+raw_spice_data = bytearray(b"CINNAMON")
+print(f"Bytes: {raw_spice_data}")
