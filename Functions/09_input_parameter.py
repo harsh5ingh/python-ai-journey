@@ -27,3 +27,14 @@ def special_chai(*ingrediants, **extraas):
 
 special_chai("Cinnamon", "Cardmom", sweetners="Honey", foam= "yes")
 
+# def chai_order(order=[]):
+    # order.append("Masala")
+    # print(order)
+
+def chai_order(order=None):
+     if order is None:
+         order = []
+     print(order)
+
+chai_order()
+chai_order()
