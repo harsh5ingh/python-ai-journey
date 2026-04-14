@@ -24,3 +24,10 @@ def chai_status(cups_left):
 
 print(chai_status(0))
 print(chai_status(5))
+
+def chai_reports():
+  return 100, 20, 10 # Sold, remaining
+
+sold, remaining, _ = chai_reports()
+print("Sold: ", sold)
+print("Remaining: ", remaining)
