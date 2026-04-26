@@ -11,4 +11,4 @@ class D(C, B):
   pass
 
 cup = D()
-print(D)
+print(D) 
