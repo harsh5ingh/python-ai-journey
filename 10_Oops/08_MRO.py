@@ -7,8 +7,8 @@ class B:
 class C(A):
   label = "C: Herbal blend"
 
-class D(B, C):
+class D(C, B):
   pass
 
 cup = D()
-print(cup.label)
+print(D)
