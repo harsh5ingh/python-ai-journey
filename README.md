@@ -1,6 +1,6 @@
 # Python-AI
 
-A structured repository documenting my Python learning journey from fundamentals to advanced concepts and projects.
+A structured repository documenting my Python learning journey from fundamentals to advanced concepts, projects, and AI development.
 
 ## Sections
 
@@ -21,16 +21,34 @@ A structured repository documenting my Python learning journey from fundamentals
 - chai_business mini project
 
 ### 04_misc
-- extra practice files
+- extra practice files and experiments
+
+## Progress
+
+- [x] Python Basics
+- [x] Object-Oriented Programming
+- [x] Decorators
+- [x] Generators
+- [ ] Asyncio
+- [ ] Pydantic
+- [ ] APIs
+- [ ] Generative AI
+- [ ] Agentic AI Projects
 
 ## Goal
 
 Building strong Python foundations for:
+
 - AI / Generative AI
 - Backend Development
 - Automation
 - Real-world Projects
+- Scalable Applications
 
 ## Author
 
-Harsh Kumar
+Harsh Kumar (harsh5ingh)
+
+Actively updated as I continue learning.
+
+Python | Learning | AI Journey
