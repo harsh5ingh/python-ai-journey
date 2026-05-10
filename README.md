@@ -12,10 +12,12 @@ A structured repository documenting my Python learning journey from fundamentals
 - comprehensions
 
 ### 02_advanced_python
+- async
 - decorators
 - exception_handling
 - generators
 - object_oriented_programming
+  
 
 ### 03_projects
 - chai_business mini project
@@ -44,7 +46,7 @@ A structured repository documenting my Python learning journey from fundamentals
 - [x] Decorators
 - [x] Generators
 - [x] NumPy Basics
-- [x] Asyncio
+- [x] Async
 - [ ] Pydantic
 - [x] APIs
 - [ ] Generative AI
