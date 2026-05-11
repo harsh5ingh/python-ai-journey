@@ -12,10 +12,12 @@ A structured repository documenting my Python learning journey from fundamentals
 - comprehensions
 
 ### 02_advanced_python
+- async
 - decorators
 - exception_handling
 - generators
 - object_oriented_programming
+  
 
 ### 03_projects
 - chai_business mini project
@@ -23,15 +25,30 @@ A structured repository documenting my Python learning journey from fundamentals
 ### 04_misc
 - extra practice files and experiments
 
+### 05_agentic_ai
+- prompts
+- model integration
+- NVIDIA API
+- Gemini API
+- OpenAI SDK usage
+
+### 06_Numpy
+- arrays
+- indexing & slicing
+- broadcasting
+- image matrix operations
+- inverted image using matplotlib
+
 ## Progress
 
 - [x] Python Basics
 - [x] Object-Oriented Programming
 - [x] Decorators
 - [x] Generators
-- [ ] Asyncio
+- [x] NumPy Basics
+- [x] Async
 - [ ] Pydantic
-- [ ] APIs
+- [x] APIs
 - [ ] Generative AI
 - [ ] Agentic AI Projects
 
