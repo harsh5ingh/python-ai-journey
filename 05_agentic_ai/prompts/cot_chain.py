@@ -6,7 +6,6 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 sys.path.append(str(ROOT_DIR))
 
-import config
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -54,12 +53,12 @@ message_history = [
   {"role": "system", "content": SYSTEM_PROMPT}
 ]
 
-user_query = input("👉🏻 Enter your question: ")
+user_query = input("👉🏻 Enter your question:   ")
 message_history.append({"role": "user", "content": user_query})
 
 while True:
   response = client.chat.completions.create(
-    model="llama-3.3-70b-versatile",
+    model="llama-3.1-8b-instant",
     response_format={"type": "json_object"},
     messages= message_history
   )
@@ -69,14 +68,14 @@ while True:
   parsed_result = json.loads(raw_result)
 
   if parsed_result.get("step") == "START":
-    print("🚀Starting LLM Loop: ", parsed_result.get("content"))
+    print("🚀 Starting LLM Loop:  ", parsed_result.get("content"))
     continue
 
   if parsed_result.get("step") == "PLAN":
-    print("thinking...🧠", parsed_result.get("content"))
+    print("🧠 Thinking...  ", parsed_result.get("content"))
 
   if parsed_result.get("step") == "OUTPUT":
-    print("🤖Output: ", parsed_result.get("content"))
+    print("🤖 Output:  ", parsed_result.get("content"))
     break
 
   print("\n\n\n")
